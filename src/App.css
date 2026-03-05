@@ -1,0 +1,33 @@
+.tw-followcard{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: .8rem;
+}
+.tw-followcard-header{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.tw-followcard-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.tw-followcard-infoUserName{
+    opacity: .6;
+}
+
+.tw-followcard-avatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 1000px;
+}
+
+.tw-followcard-button{
+    margin-left: 16px;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: bold;
+}
