@@ -5,8 +5,9 @@ export function TwitterFollowCard({children, userName}){
     const text = isFollowing ? `Siguiendo` : `Seguir`
     const buttonClassName = isFollowing 
     ? `tw-followCard-button is-following`
-    :`tw-followCard-button`
+    : `tw-followCard-button`
     
+    //Cambiar de estado al hacer click 
     const handleClick = () => {
         setIsFollowing(!isFollowing)
     }
@@ -16,7 +17,7 @@ export function TwitterFollowCard({children, userName}){
             <header className="tw-followCard-header">
                 <img 
                     className="tw-followCard-avatar"
-                    alt="El Avatar de midudev" 
+                    alt="El Avatar de ${userName}" 
                     src={`https://unavatar.io/${userName}`}/>
                 <div className="tw-followCard-info">
                     <strong>{children}</strong>
