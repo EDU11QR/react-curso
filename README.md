@@ -1,62 +1,111 @@
-Twitter Follow Card - Práctica con React
+# ⚛️ React Curso
 
-Este proyecto es una pequeña práctica que hice mientras aprendía React.
-La idea es crear un componente parecido a las tarjetas de seguir usuarios de Twitter (X) usando props y componentes reutilizables.
+Repositorio de práctica y aprendizaje de **React.js**, donde se desarrollan diferentes ejemplos para comprender los fundamentos de la librería y su funcionamiento.
 
-Qué aprendí en este ejercicio
+Este proyecto forma parte de mi proceso de aprendizaje en **Frontend Development**, aplicando conceptos clave como componentes, hooks y manejo del estado en React.
 
-Cómo crear componentes en React
+---
 
-Cómo usar props para pasar información a un componente
+## 🚀 Tecnologías utilizadas
 
-Cómo mostrar datos dinámicos en JSX
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Node.js
+- Vite
 
-Cómo reutilizar un mismo componente para varios usuarios
+---
 
-Cómo generar una URL dinámica para el avatar usando userName
+## 📚 Conceptos practicados
 
-Componente principal
+En este repositorio se aplican los siguientes conceptos fundamentales de React:
 
-El componente que creé se llama:
+- Componentes funcionales
+- JSX
+- Hooks
+  - `useState`
+  - `useEffect`
+- Manejo de eventos
+- Renderizado dinámico
+- Manejo del estado
+- Estructura de proyectos React
 
-TwitterFollowCard
+---
 
-Este componente recibe tres props:
+## 📂 Estructura del proyecto
 
-userName → nombre de usuario
+react-curso
+│
+├── public
+│
+├── src
+│ ├── components
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
 
-name → nombre real
 
-isFollowing → indica si ya seguimos a la persona
+---
 
-Ejemplo de uso:
+## ⚙️ Instalación y ejecución
 
-<TwitterFollowCard 
-  userName="midudev"
-  name="Miguel Angel Duran"
-  isFollowing={false}
-/>
+Sigue estos pasos para ejecutar el proyecto en tu máquina local.
 
-<TwitterFollowCard 
-  userName="elonmusk"
-  name="Elon Musk"
-  isFollowing={true}
-/>
-Avatar dinámico
+### 1️⃣ Clonar el repositorio
 
-Para mostrar la foto de perfil uso la página unavatar.io, que permite generar el avatar a partir del username.
+```bash
+git clone https://github.com/EDU11QR/react-curso.git
 
-const avatarUrl = `https://unavatar.io/${userName}`
-Objetivo de la práctica
+2️⃣ Entrar al directorio del proyecto
+cd react-curso
 
-El objetivo de este ejercicio fue entender mejor:
+3️⃣ Instalar las dependencias
+npm install
 
-cómo funcionan los componentes reutilizables
+4️⃣ Ejecutar el servidor de desarrollo
+npm run dev
 
-cómo React renderiza información dinámica
+El proyecto se ejecutará en:
+http://localhost:5173
 
-cómo organizar mejor el código separando lógica y JSX
+ ## 🎯 Objetivo del proyecto
 
-Nota
+El objetivo de este repositorio es reforzar los conocimientos en React, practicando los conceptos fundamentales para el desarrollo de aplicaciones modernas en frontend.
 
-Este proyecto forma parte de mi proceso de aprendizaje en React, así que el código es simple y está pensado solo para practicar conceptos básicos.
+Entre los objetivos principales:
+
+Comprender la arquitectura básica de React
+
+Aprender a trabajar con componentes reutilizables
+
+Gestionar el estado de la aplicación
+
+Utilizar hooks para manejar lógica y efectos secundarios
+
+Construir una base sólida para proyectos más avanzados
+
+## 🔧 Posibles mejoras futuras
+
+Implementar React Router
+
+Consumir APIs externas
+
+Implementar manejo global de estado
+
+Agregar estilos con Tailwind CSS
+
+Crear componentes reutilizables
+
+Desplegar el proyecto en Vercel o Netlify
+
+## 👨‍💻 Autor
+
+Edu Quispe
+
+GitHub:
+https://github.com/EDU11QR
